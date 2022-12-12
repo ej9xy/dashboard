@@ -26,7 +26,6 @@ if __name__ == '__main__':
     print('    pipenv run gunicorn -w 4 main:app')
     print()
     print('will start the app on four processes')
-    gunicorn --worker-tmp-dir /dev/shm main:app
     import sys
     #sys.exit()
 
