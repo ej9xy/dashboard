@@ -27,7 +27,7 @@ if __name__ == '__main__':
     print()
     print('will start the app on four processes')
     import sys
-    sys.exit()
+    #sys.exit()
 
 app = Flask(__name__)
 
